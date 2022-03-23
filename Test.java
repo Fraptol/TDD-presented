@@ -1,8 +1,8 @@
 class Test {
-    public static void main (String args[])
-    {
-        String greetings = "The note says: first run";
-        assert greetings.matches("The note says: first run");
+    public static void Try() {
+        String greetings =          "The note says: first run";
+        assert greetings.matches(   "The note says: first run");
+        System.out.println("Welcome to testing!");
     }
 }
 //Laying the groundworks,
