@@ -6,3 +6,8 @@ A java "assert" kijelentése nem lesz figyelembe véve, hacsak nem használjuk a
 java –enableassertions Test
 
 java –ea Test
+
+# #2. Az asszerció kikapcsolása
+java –disableassertions Test
+
+java –da Test
