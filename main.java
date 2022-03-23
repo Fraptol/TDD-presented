@@ -1,11 +1,10 @@
 import java.util.Scanner;
 public static void main(String[] args) {
     //0
-    Try();
-    TestHello1();
+    Try();          //dud test
+    TestHello1();   //no input case
+    TestHello2_a(); //(not capitalised name)
 }
-
-
 /*
 tervezett lépések
 //1
