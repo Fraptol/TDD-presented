@@ -5,9 +5,9 @@ public class Print {
 
     public static String sayHello(String names[])
     {
-        if (names.length<0){    //return if no name
+        if (names.length<0){            //return if no name
             return greet+unknown+".";
         }
-        return names[0];        //return if 1 name
+            return greet+names[0]+".";  //return if 1 name
     }
 }
