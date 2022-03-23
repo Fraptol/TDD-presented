@@ -5,6 +5,9 @@ public static void main(String[] args) {
     TestHello1();
     TestHello2_a();
     TestHello3_aaa();
+    
+    
+    Print.sayHello(args);
 }
 /*
 tervezett lépések
