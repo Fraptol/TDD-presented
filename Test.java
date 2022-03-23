@@ -17,7 +17,7 @@ class Test {
     public static void TestHello2_a() {
         String greetings =          greet+"Bob"+"."             ;
         System.out.println(         "Koszones nev szerint..."   );
-        assert greetings.matches(   Print.sayHello("Bob")             );
+        assert greetings.matches(   Print.sayHello("Bob")       );
     }
 }
 //Laying the groundworks,
