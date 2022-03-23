@@ -8,10 +8,14 @@ class Test {
     }
     //1
     public static void TestHello1() {
-        String greetings =          greet+unknown+".";
-        System.out.println("Koszones 1...");
-        assert greetings.matches(   "Hello my friend.");
-    }
+        String greetings =          greet+unknown+"."   ;
+        System.out.println(         "Koszones 1..."     );
+        assert greetings.matches(   "Hello my friend."  );
+        assert greetings.matches(   sayHello()          );
+}
+//Laying the groundworks,
+//Making sure it works.
+
 }
 //Laying the groundworks,
 //Making sure it works.
