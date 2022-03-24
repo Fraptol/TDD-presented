@@ -22,9 +22,9 @@ class Test {
     }
     //3
     public static void TestHello3_aaa(){
-        String greetings =          greet+"Alice, Bob"+and+"Jerry." ;
+        String greetings =          greet+"Alice, Bob"+and+"Jerry."   ;
         System.out.println(         "3 koszones nev szerint..."       );
-        assert greetings.matches(   Print.sayHello("Bob")           );
+        assert greetings.matches(   Print.sayHello("Alice Bob Jerry"));
     }
     }        
 }
